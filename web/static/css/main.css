@@ -1,0 +1,141 @@
+body {
+  background: linear-gradient(-45deg, #581845, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  color: #333333;
+  margin-top: 5rem;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:  #191970;
+}
+
+.btn-info{
+  background-color:#C70039 ;
+}
+form #input{
+  color:black;
+} 
+.navbar-brand{
+  color:yellow;
+}
+
+
+ul {
+  margin: 0;
+}
+.btn-outline-info{
+  color: white;
+  border-color: black;
+  background-color: #000080;
+}
+.btn-outline-info:hover{
+  background-color:green;
+}
+
+
+.btn-success{
+  color:black;
+  background-color: #ffc7e3;
+}
+
+.bg-steel {
+  background-color: #000042;  
+}
+
+.site-header .navbar-nav .nav-link {
+  color: white;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color:#00bd00;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  background: #FFFFE0;
+  padding: 10px 20px;
+  border: 1px solid green;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: justify;
+  border-style: dashed;
+  
+}
+.text-danger{
+  color:green;
+}
+
+.article-title {
+  color: #191970;
+}
+
+a.article-title:hover {
+  color:#008000   ;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+  border-color: black;
+  border:1px solid black ;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #008080;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+   border: 10px solid transparent;
+   border-radius: 50%;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
